@@ -1,0 +1,108 @@
+Design and develop a modern, visually stunning, and interactive portfolio website for Ihsaan Ullah, a 24-year-old Frontend developer, using Next.js and Tailwind CSS. The portfolio must be professional, clean, and creative, with a light-themed aesthetic by default (avoiding overused dark themes) and include a dark mode toggle for accessibility and user preference. Below are the detailed requirements to ensure clarity and precision for the AI to execute effectively.
+
+Objective:
+Create a responsive, animated, and interactive portfolio that showcases Ihsaan’s skills, projects, education, and career aspirations. The design should feel fresh, modern, and engaging, with a focus on originality, performance, and maintainability, while supporting future backend expansion.
+
+Detailed Requirements:
+
+Design Aesthetic:
+Light Theme (Default): Use a clean, light color palette (e.g., whites, soft grays, pastel accents like indigo or teal) to create a professional yet creative vibe. Avoid mainstream dark-themed portfolio designs.
+Dark Mode Support: Include a toggle for dark mode (e.g., gray-900 background with light text) to enhance accessibility and user choice. Ensure smooth transitions between themes using Tailwind’s dark mode utilities.
+Originality: Design must stand out with unique layouts, avoiding generic templates. Incorporate creative typography (e.g., modern sans-serif fonts like Inter or Poppins) and subtle gradients or shadows for depth.
+Core Features and Sections:
+Homepage/Hero Section: A bold, animated introduction with Ihsaan’s name, title (Frontend Developer & Creative Stylist), and a call-to-action (e.g., “Get in Touch” button linking to contact). Include a brief tagline about his passion for web development.
+About Section: Highlight Ihsaan’s background:
+Age: 24
+Education: Bachelor’s in Software Engineering
+Specialties: Frontend development, creative styling, AI prompting, CSS/Tailwind expertise
+Learning Interests: Backend development, advanced React/Next.js, AI-powered applications
+Career Goals: Seeking job opportunities to gain hands-on experience and grow in a professional environment
+Projects Section: Showcase 3–4 placeholder projects (to be updated later) with:
+Brief descriptions (e.g., “A responsive web app built with Next.js and Tailwind CSS”)
+Mock images or placeholders for visuals
+Links to view projects (use # for now)
+Skills Section: Display skills in a grid or list with hover effects:
+Languages & Tools: HTML, CSS, JavaScript, jQuery, React.js, Next.js, Node.js, Tailwind CSS, C++ (basic), Data Structures (basic)
+Contact Section: Include:
+A professional email link (e.g., mailto:ihsaan@example.com)
+A LinkedIn link (e.g., linkedin.com/in/ihsaanullah)
+A brief message inviting collaboration or job opportunities
+Interactivity and Animations:
+Animations: Use Framer Motion for subtle, performant animations:
+Fade-ins and slide-ins for section elements on scroll
+Hover effects on buttons, project cards, and skill tags (e.g., scale or color change)
+Smooth theme toggle transition (e.g., background and text color changes)
+Interactive Elements:
+Theme toggle button (e.g., sun/moon icon) to switch between light and dark modes
+Smooth scrolling navigation with active link highlighting
+Hover effects on project cards and buttons for engagement (e.g., shadow lift, scale)
+Optional: Add a “Back to Top” button that appears on scroll
+Responsiveness and Accessibility:
+Responsive Design: Ensure the portfolio is fully responsive across:
+Desktop (1440px and above)
+Tablet (768px–1024px)
+Mobile (below 768px)
+Use Tailwind’s responsive utilities (e.g., sm:, md:, lg:) for adaptive layouts.
+Accessibility:
+Semantic HTML (e.g.,
+,
+,
+)
+ARIA attributes for interactive elements (e.g., aria-label for theme toggle)
+High-contrast text and focus states for keyboard navigation
+Alt text for any images (use placeholders if needed)
+Performance: Optimize for fast loading:
+Use Next.js image optimization
+Minimize heavy assets
+Lazy-load off-screen elements
+Technologies and Tools:
+Frontend: HTML, CSS, JavaScript, React.js, Next.js, Tailwind CSS
+Animations: Framer Motion for complex animations; fallback to CSS transitions for simple effects
+State Management: React hooks (e.g., useState for theme toggle)
+Backend (Optional): Structure the project to allow future Node.js integration (e.g., API routes in Next.js)
+Dependencies:
+Install Next.js, Tailwind CSS, and Framer Motion via npm
+Use CDN for any external libraries if needed (e.g., for quick prototyping)
+Code Quality and Structure:
+Modularity: Organize code into reusable React components (e.g., Navbar, Hero, ProjectCard, SkillTag)
+Comments: Add clear, concise comments explaining each component’s purpose and key logic
+File Structure:
+pages/index.js: Main page
+components/: Reusable components (e.g., Navbar.js, ProjectCard.js)
+styles/: Global CSS or Tailwind config
+public/: Static assets (e.g., placeholder images)
+Maintainability: Write clean, DRY code with consistent naming conventions
+Version Control: Structure for easy Git integration (e.g., .gitignore for node_modules)
+Backup Reference:
+Reference an incomplete previous portfolio attempt in a “Backup” folder for inspiration (e.g., layout ideas, color schemes).
+Do not replicate; use it to inform unique design choices.
+Deliverables:
+A complete Next.js project with:
+Source code for all components and pages
+Tailwind CSS configuration for light/dark themes
+Framer Motion animations
+Responsive layouts
+Instructions for running the project locally (e.g., npm install, npm run dev)
+Placeholder content for projects and images, ready for Ihsaan to update
+Personal Details for Content:
+
+Name: Ihsaan Ullah
+Age: 24
+Specialties: Frontend development, creative styling, AI prompting, CSS/Tailwind expertise
+Learning Interests: Backend development, advanced React/Next.js, AI-powered applications
+Languages & Tools: HTML, CSS, JavaScript, jQuery, React.js, Next.js, Node.js, Tailwind CSS, C++ (basic), Data Structures (basic)
+Education: Bachelor’s in Software Engineering
+Career Goals: Seeking job opportunities for hands-on learning in a professional environment to grow skills
+Constraints:
+
+Avoid heavy frameworks or libraries beyond those specified
+Do not use form submissions (e.g., <form> onSubmit) due to sandbox restrictions</form>
+Ensure animations are subtle to avoid overwhelming users
+Keep performance in mind (e.g., avoid excessive DOM manipulation)
+Output Format:
+Provide the complete source code wrapped in an <xaiArtifact> tag with:
+
+A unique UUID for artifact_id
+title set to the main file name (e.g., “index.js”)
+contentType set to “text/javascript” for Next.js code
+Include a brief explanation of the code and setup instructions outside the artifact tag
