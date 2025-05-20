@@ -165,30 +165,65 @@ export default function Hero() {
                   
                   <div className="w-full h-full pt-6 rounded-lg bg-card/50 overflow-hidden flex items-center justify-center">
                     <div className="p-6 text-center">
-                      <div className="flex justify-center mb-4">
-                        <div className="w-32 h-32 rounded-full bg-gradient-to-br from-primary via-secondary to-accent flex items-center justify-center">
-                          <div className="w-28 h-28 rounded-full bg-card flex items-center justify-center text-5xl font-bold gradient-text">
-                            IU
-                          </div>
+                      <div className="flex justify-center mb-6">
+                        <div className="w-32 h-32 rounded-full bg-gradient-to-br from-primary via-secondary to-accent p-1">
+                          <img 
+                            src="/images/profile1.jpg" 
+                            alt="Ihsaan Ullah" 
+                            className="w-full h-full rounded-full object-cover"
+                          />
                         </div>
                       </div>
                       
-                      <div className="space-y-2">
+                      <div className="space-y-3 font-mono text-xs sm:text-sm text-left bg-card/80 p-3 rounded-lg border border-primary/20 overflow-hidden">
                         <motion.div 
-                          className="h-3 w-32 mx-auto rounded-full bg-primary/30"
-                          animate={{ width: ["60%", "90%", "75%"] }}
-                          transition={{ repeat: Infinity, duration: 3, repeatType: "mirror" }}
-                        ></motion.div>
+                          className="text-primary"
+                          initial={{ opacity: 0 }}
+                          animate={{ opacity: 1 }}
+                          transition={{ duration: 0.5 }}
+                        >
+                          <span className="text-secondary">const</span> <span className="text-accent">developer</span> = {'{'}
+                        </motion.div>
+                        
+                        <motion.div
+                          initial={{ x: -100, opacity: 0 }}
+                          animate={{ x: 0, opacity: 1 }}
+                          transition={{ duration: 0.5, delay: 0.2 }}
+                        >
+                          <span className="pl-4">role: </span>
+                          <span className="text-primary">"Frontend Developer"</span>,
+                        </motion.div>
+                        
+                        <motion.div
+                          initial={{ x: -100, opacity: 0 }}
+                          animate={{ x: 0, opacity: 1 }}
+                          transition={{ duration: 0.5, delay: 0.4 }}
+                        >
+                          <span className="pl-4">skills: </span>
+                          <span className="text-primary">[</span>
+                          <span className="text-accent">"React"</span>, 
+                          <span className="text-accent">"Next.js"</span>, 
+                          <span className="text-accent">"Tailwind"</span>
+                          <span className="text-primary">]</span>,
+                        </motion.div>
+                        
+                        <motion.div
+                          initial={{ x: -100, opacity: 0 }}
+                          animate={{ x: 0, opacity: 1 }}
+                          transition={{ duration: 0.5, delay: 0.6 }}
+                        >
+                          <span className="pl-4">experience: </span>
+                          <span className="text-primary">"2+ years"</span>
+                        </motion.div>
+                        
                         <motion.div 
-                          className="h-3 w-40 mx-auto rounded-full bg-secondary/30"
-                          animate={{ width: ["90%", "70%", "85%"] }}
-                          transition={{ repeat: Infinity, duration: 3, repeatType: "mirror", delay: 0.3 }}
-                        ></motion.div>
-                        <motion.div 
-                          className="h-3 w-36 mx-auto rounded-full bg-accent/30"
-                          animate={{ width: ["75%", "85%", "65%"] }}
-                          transition={{ repeat: Infinity, duration: 3, repeatType: "mirror", delay: 0.6 }}
-                        ></motion.div>
+                          className="text-primary"
+                          initial={{ opacity: 0 }}
+                          animate={{ opacity: 1 }}
+                          transition={{ duration: 0.5, delay: 0.8 }}
+                        >
+                          {'};'}
+                        </motion.div>
                       </div>
                     </div>
                   </div>
