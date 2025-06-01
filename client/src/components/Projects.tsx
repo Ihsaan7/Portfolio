@@ -5,35 +5,35 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Dashboard",
-      description: "A responsive dashboard for e-commerce analytics built with Next.js and Tailwind CSS. Features include real-time data visualization and user authentication.",
-      tags: ["Next.js", "Tailwind CSS", "Chart.js", "API Integration"],
-      imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-      link: "#"
+      title: "Netflix UI Clone",
+      description: "A modern Netflix UI clone built with Next.js and Tailwind CSS. Features responsive design and modern UI components matching Netflix's aesthetic.",
+      tags: ["Next.js", "JavaScript", "Tailwind CSS"],
+      imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+      link: "https://netflixuiclone-dhv31epcd-egzziwd-8640s-projects.vercel.app"
     },
     {
       id: 2,
-      title: "Portfolio Website Template",
-      description: "A customizable portfolio template for developers and designers. Built with modern web technologies and featuring smooth animations and dark mode support.",
-      tags: ["React", "Framer Motion", "Tailwind CSS", "Responsive Design"],
-      imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-      link: "#"
+      title: "Soft UI 3 Dashboard",
+      description: "A modern dashboard clone featuring a clean and intuitive interface. Built with Next.js and Tailwind CSS, showcasing advanced UI/UX design principles.",
+      tags: ["Next.js", "JavaScript", "Tailwind CSS"],
+      imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+      link: "https://soft-ui-3-dashboard-master-3ngvvai8r-egzziwd-8640s-projects.vercel.app"
     },
     {
       id: 3,
-      title: "Task Management App",
-      description: "A productivity application for managing tasks and projects. Features include drag-and-drop interface, task priorities, and team collaboration tools.",
-      tags: ["React", "Node.js", "Express", "MongoDB"],
+      title: "Movie & TV Show Website",
+      description: "An interactive movie and TV show website with a dark theme. Features include movie listings, details, and a responsive design.",
+      tags: ["HTML", "CSS", "JavaScript", "jQuery"],
       imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-      link: "#"
+      link: "https://ihsaan7.github.io/Movie-TvShow-Website-main/"
     },
     {
       id: 4,
-      title: "Weather Forecast App",
-      description: "A weather application with a clean UI that provides current conditions and forecasts. Features location detection and detailed weather information.",
-      tags: ["JavaScript", "CSS3", "Weather API", "Geolocation API"],
+      title: "Digital Resume",
+      description: "A creative and modern digital resume showcasing personal information, skills, and experience with an innovative design approach.",
+      tags: ["HTML", "CSS", "JavaScript"],
       imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-      link: "#"
+      link: "https://ihsaan7.github.io/Digital-Resume/"
     }
   ];
 
@@ -77,15 +77,39 @@ export default function Projects() {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="text-center mt-12"
         >
-          <p className="text-gray-600 dark:text-gray-400 mb-6">
-            These are just a few examples of my work. I'm always working on new projects and learning new technologies.
-          </p>
-          <a
-            href="#contact"
-            className="inline-block px-6 py-3 bg-white hover:bg-gray-100 text-gray-800 dark:bg-slate-700 dark:hover:bg-slate-600 dark:text-white rounded-lg border border-gray-200 dark:border-slate-600 transition-colors shadow-sm hover:shadow-md font-medium"
-          >
-            Interested in Working Together?
-          </a>
+          <div className="flex flex-col items-center gap-6">
+            <a
+              href="https://drive.google.com/file/d/10UdY4MD2XyUSfY9g-fKMi9Iz09_D5DcI/view"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-6 py-3 bg-primary hover:bg-primary/90 text-white rounded-lg transition-colors shadow-sm hover:shadow-md font-medium"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-5 w-5 mr-2"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                />
+              </svg>
+              Download CV
+            </a>
+            <p className="text-gray-600 dark:text-gray-400">
+              These are just a few examples of my work. I'm always working on new projects and learning new technologies.
+            </p>
+            <a
+              href="#contact"
+              className="inline-block px-6 py-3 bg-white hover:bg-gray-100 text-gray-800 dark:bg-slate-700 dark:hover:bg-slate-600 dark:text-white rounded-lg border border-gray-200 dark:border-slate-600 transition-colors shadow-sm hover:shadow-md font-medium"
+            >
+              Interested in Working Together?
+            </a>
+          </div>
         </motion.div>
       </div>
     </section>
