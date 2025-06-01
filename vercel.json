@@ -1,14 +1,11 @@
 {
-    "builds": [
-      {
-        "src": "dist/public/**",
-        "use": "@vercel/static"
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "dist/public/index.html"
-      }
-    ]
-  }
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist/public",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
