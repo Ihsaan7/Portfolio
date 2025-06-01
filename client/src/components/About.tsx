@@ -41,7 +41,7 @@ export default function About() {
                   <img 
                     src={profileImagePath} 
                     alt="Ihsaan Ullah" 
-                    className="w-full h-full object-cover rounded-lg" 
+                    className="w-100 h-200 object-contain rounded-lg" 
                   />
                 </div>
                 
@@ -57,7 +57,7 @@ export default function About() {
                   }}
                   transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
                 >
-                  <span className="text-primary text-3xl font-bold">24</span>
+                  <span className="text-primary text-3xl font-bold">22</span>
                 </motion.div>
               </div>
             </motion.div>
@@ -78,7 +78,7 @@ export default function About() {
                   <span>Who Am I?</span>
                 </h3>
                 <p className="text-foreground/80">
-                  I'm Ihsaan Ullah, a 24-year-old Frontend Developer based in Islamabad, Pakistan. 
+                  I'm Ihsaan Ullah, a 22-year-old Frontend Developer based in Islamabad, Pakistan. 
                   With a passion for creating beautiful, functional web experiences, I hold a Bachelor's 
                   degree in Software Engineering and specialize in frontend development and creative styling.
                 </p>

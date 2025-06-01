@@ -98,7 +98,7 @@ export default function Hero() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.7, duration: 0.8 }}
                 >
-                  Hi, I'm <span className="font-semibold text-primary">Ihsaan Ullah</span>, a passionate web developer 
+                  Hi, I'm <span className="font-semibold text-primary">Ihsaan Ullah</span>, a web developer 
                   who creates engaging digital experiences through clean code and innovative design.
                 </motion.p>
 
@@ -154,7 +154,7 @@ export default function Hero() {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.8, duration: 0.8 }}
             >
-              <div className="relative w-full aspect-square max-w-md">
+              <div className="relative w-full aspect-auto max-w-md ">
                 <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-primary/80 via-secondary/70 to-accent/60 blur-xl opacity-20 animate-[pulse_8s_ease-in-out_infinite]"></div>
                 <div className="relative h-full w-full rounded-xl overflow-hidden bg-card border-2 border-primary/20 p-1">
                   <div className="absolute top-0 left-0 right-0 h-6 bg-card flex items-center space-x-1.5 px-3 border-b border-primary/10 rounded-t-lg">
@@ -164,8 +164,8 @@ export default function Hero() {
                   </div>
                   
                   <div className="w-full h-full pt-6 rounded-lg bg-card/50 overflow-hidden flex items-center justify-center">
-                    <div className="p-6 text-center">
-                      <div className="flex justify-center mb-6">
+                    <div className="p-8 text-center">
+                      <div className="flex justify-center mb-8">
                         <div className="w-32 h-32 rounded-full bg-gradient-to-br from-primary via-secondary to-accent p-1">
                           <img 
                             src="/images/profile1.jpg" 
@@ -175,7 +175,7 @@ export default function Hero() {
                         </div>
                       </div>
                       
-                      <div className="space-y-3 font-mono text-xs sm:text-sm text-left bg-card/80 p-3 rounded-lg border border-primary/20 overflow-hidden">
+                      <div className="space-y-4 font-mono text-xs sm:text-sm text-left bg-card/80 p-4 rounded-lg border border-primary/20 overflow-hidden">
                         <motion.div 
                           className="text-primary"
                           initial={{ opacity: 0 }}
