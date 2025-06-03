@@ -201,10 +201,12 @@ export default function Hero() {
                         >
                           <span className="pl-4">skills: </span>
                           <span className="text-primary">[</span>
-                          <span className="text-accent">"React"</span>, 
-                          <span className="text-accent">"Next.js"</span>, 
-                          <span className="text-accent">"Tailwind"</span>
-                          <span className="text-primary">]</span>,
+                          <span className="flex flex-col  gap-1">
+                            <span className="text-accent text-center">"React" <span className="text-white"> ,</span></span> 
+                            <span className="text-accent text-center">"Next.js" <span className="text-white"> ,</span></span> 
+                            <span className="text-accent text-center">"Tailwind" <span className="text-white"> </span></span>
+                          </span>
+                          <span className="text-primary text-center flex justify-center mr-10">] <span className="text-white"> ,</span></span>
                         </motion.div>
                         
                         <motion.div

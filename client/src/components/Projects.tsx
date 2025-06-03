@@ -17,7 +17,7 @@ export default function Projects() {
       description: "A modern dashboard clone featuring a clean and intuitive interface. Built with Next.js and Tailwind CSS, showcasing advanced UI/UX design principles.",
       tags: ["Next.js", "JavaScript", "Tailwind CSS"],
       imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
-      link: "https://soft-ui-3-dashboard-master-3ngvvai8r-egzziwd-8640s-projects.vercel.app"
+      link: "http://softui3dashbui.vercel.app"
     },
     {
       id: 3,
